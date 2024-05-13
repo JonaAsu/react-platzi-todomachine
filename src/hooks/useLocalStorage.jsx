@@ -3,10 +3,10 @@ import React from 'react';
 // localStorage.removeItem('TODOS_V1');
 
 // const defaultTodos = [
-//   { text: 'Cortar cebolla', completed: true },
-//   { text: 'Tomar el curso de intro a React', completed: false },
-//   { text: 'Llorar con la llorona', completed: false },
-//   { text: 'Tomar mate', completed: false },
+//    { text: 'Cortar cebolla', completed: true },
+//    { text: 'Tomar el curso de intro a React', completed: false },
+//    { text: 'Llorar con la llorona', completed: false },
+//    { text: 'Tomar mate', completed: false },
 // ];
 // localStorage.setItem('TODOS_V1', JSON.stringify(defaultTodos));
 
@@ -34,7 +34,7 @@ function useLocalStorage(itemName, initialValue) {
             setLoading(false);
             setError(true);
          }
-      }, 5000);
+      }, 2000);
    }, []);
 
    const saveItem = ( newItem) => {
